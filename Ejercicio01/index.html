@@ -21,7 +21,7 @@
 /*        body{
             background-color: black;
             background-image: url("images/fondo.jpg");
-        }*/
+        }
         .vistoso{
             background-color: lightgray ;
             color: mediumpurple;
@@ -47,6 +47,26 @@
         #mispan{
             color:aquamarine; 
         }
+        h2 + p{
+            text-decoration: underline;
+        }
+        p ~ p{
+            color: hotpink;
+            background-color: lightblue;
+        }*/
+        a:visited{
+         color: palegreen;   
+        }
+        p:hover{
+            color: lightyellow;
+            background-color: palegreen;
+        }
+        a:link{
+            background-color: pink;
+        }
+        textarea:focus{
+            background-color: peachpuff
+        }
     </style>
     <!--<link rel="stylesheet" href="css/estilos.css">-->
     <title>Document</title>
@@ -58,7 +78,12 @@
     <h2 class="vistoso">Otro título h2</h2>
     <p class="vistoso">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias labore nam, sunt culpa nulla maiores laudantium perspiciatis necessitatibus vel neque quia alias ab quo natus corporis nobis voluptatem! Amet, perferendis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span>Itaque tenetur fugit aperiam corporis asperiores quisquam,</span> recusandae et dignissimos tempora totam necessitatibus excepturi, atque perspiciatis nihil culpa ipsam? Amet, assumenda nihil.</p>
     <p id="parrafoEspecial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias labore nam, sunt culpa nulla maiores laudantium perspiciatis necessitatibus vel neque quia alias ab quo natus corporis nobis voluptatem! Amet, perferendis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque tenetur fugit aperiam corporis asperiores quisquam, recusandae et dignissimos tempora totam necessitatibus excepturi, atque perspiciatis nihil culpa ipsam? Amet, assumenda nihil.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias labore nam, sunt culpa nulla maiores laudantium perspiciatis necessitatibus vel neque quia alias ab quo natus corporis nobis voluptatem! Amet, perferendis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque tenetur fugit aperiam corporis asperiores quisquam, recusandae et dignissimos tempora totam necessitatibus excepturi, atque perspiciatis nihil culpa ipsam? Amet, assumenda nihil.</p>
     <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores iure aperiam minus quos nulla<span id="mispan"> porro ex obcaecati reprehenderit laudantium libero aspernatur quam architecto culpa, </span>praesentium voluptate sint fuga dolor doloremque.</div>
-
+    <a href="#1">Ir a otra pagina</a>
+    <input type="text" placeholder="Ingrese nombre">
+    <input type="text" placeholder="Ingrese nombre">
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <input type="submit" value="Enviar">
 </body>
 </html>
